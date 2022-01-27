@@ -1,0 +1,60 @@
+# Wrong: 
+x = 1 
+y = 2 
+long_variable = 3 
+ham[lower + offset : upper + offset] 
+ham[1:9], ham[1:9], ham[1:9:3] 
+ham[lower::upper] 
+ham[:upper] 
+ham[1:9], ham[1:9:3], ham[:9:3], ham[1::3], ham[1:9:] 
+ham[lower:upper], ham[lower:upper:], ham[lower::step] 
+ham[lower+offset : upper+offset] 
+ham[:upper_fn(x):step_fn(x)], ham[::step_fn(x)] 
+ham[lower + offset : upper + offset] 
+
+def h(): 
+    if(xxxxxxxxxxxx.yyyyyyyy(zzzzzzzzzzzzz[0]) == 'aaaaaaaaaaa' and \ 
+           xxxxxxxxxxxx.yyyyyyyy(zzzzzzzzzzzzz[0].mmmmmmmm[0]) == 'bbbbbbb') :  
+        pass 
+
+def g(): 
+    if(xxxxxxxxxxxx.yyyyyyyy(zzzzzzzzzzzzz[0]) == 'aaaaaaaaaaa' and \ 
+              xxxxxxxxxxxx.yyyyyyyy(zzzzzzzzzzzzz[0].mmmmmmmm[0]) == 'bbbbbbb') :  
+        pass 
+
+
+
+def foo(): 
+    def bar(): 
+    return{msg_id : author for author,msg_id in reader} 
+
+def foo(): 
+    def bar(): 
+    return{msg_id : author for author, msg_id in reader} 
+
+def foo_function(arg1, arg2, arg3): 
+  return['hello', 'world',] 
+
+def foo_function( 
+                 arg1, arg2, arg3): 
+    return[ 
+            'hello', 
+            'world', 
+    ] 
+
+a = 4-b/c@d**37 
+a = 4-b / c@d**37 
+spam(1) 
+dct['key'] = lst[index] 
+if foo == 'blah' : do_blah_thing() 
+do_one();
+
+
+
+
+do_two();
+
+
+
+
+do_three() 
